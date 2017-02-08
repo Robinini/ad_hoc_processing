@@ -1,6 +1,8 @@
 ## Introduction
 This module was created as part of a University project
-at [University of Applied Sciences and Arts Northwestern Switzerland FHNW](http://www.fhnw.ch).
+at [University of Applied Sciences and Arts Northwestern Switzerland FHNW](http://www.fhnw.ch), Institute of Geomatics Engineering  (http://www.fhnw.ch/habg/ivgi/).
+
+The Proejct was a Specialisation Project II as part of a Master of Science - Geomatics degree(http://www.fhnw.ch/habg/ivgi/masters-degree-programme), titled "INTERNET-OF-THINGS AD-HOC NETWORKS FOR SMART GEO-IOT APPLICATIONS". 
 
 The Python3 module is for use with Internet of Things (IoT) ad-hoc networks.
 The Internet of Things (IoT) comprises of networks of communicating sensors which provide data for analysis
@@ -8,9 +10,12 @@ and can be used to automate processes. Ad-hoc networks are self-organizing netwo
 each other directly across a dynamically formed mesh.
 
 A task often completed is the acquisition of data from multiple sensors on a wired or wireless Local Area Network (LAN).
-
-The software supports a generalised data pipeline. This pipeline is a simple data flow from a data source, to a data sink.
+The software supports a generalised data pipeline. This pipeline is a simple data flow from multiple data sources, to a single data sink.
 This data flow is considered as a series of data units, or jobs, which may be processed at any point from source to sink.
+
+An exmaple application could be to obtain temperature readings at multiple source devices withn a bulding, send the data to a processor which calculates an average temperature, which is then sent to one of the devices where it is updated in a database.
+
+The library handles network discovery and data transfer, and allows the user to use his/her own functions for the creation and handling of data.
 
 ## Module
 The library uses the [Pyre](https://github.com/zeromq/pyre) and the [ZeroMQ](http://zeromq.org/) messaging library to provides the user with classes which do the following:

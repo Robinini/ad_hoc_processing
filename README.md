@@ -1,8 +1,8 @@
 ## Introduction
 This module was created as part of a University project
-at [University of Applied Sciences and Arts Northwestern Switzerland FHNW](http://www.fhnw.ch), Institute of Geomatics Engineering  (http://www.fhnw.ch/habg/ivgi/).
+at [University of Applied Sciences and Arts Northwestern Switzerland FHNW](http://www.fhnw.ch), [Institute of Geomatics Engineering](http://www.fhnw.ch/habg/ivgi/).
 
-The Proejct was a Specialisation Project II as part of a Master of Science - Geomatics degree(http://www.fhnw.ch/habg/ivgi/masters-degree-programme), titled "INTERNET-OF-THINGS AD-HOC NETWORKS FOR SMART GEO-IOT APPLICATIONS". 
+The Project was a Specialisation Project as part of a [Master of Science - Geomatics degree](http://www.fhnw.ch/habg/ivgi/masters-degree-programme), titled "INTERNET-OF-THINGS AD-HOC NETWORKS FOR SMART GEO-IOT APPLICATIONS". 
 
 The Python3 module is for use with Internet of Things (IoT) ad-hoc networks.
 The Internet of Things (IoT) comprises of networks of communicating sensors which provide data for analysis
